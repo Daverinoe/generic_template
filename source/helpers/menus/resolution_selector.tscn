@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbrxdno1be0w3"]
+
+[ext_resource type="Script" path="res://source/helpers/scripts/resolutionSelector.gd" id="1_nvd04"]
+
+[node name="resolutionSelector" type="HBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( "1_nvd04" )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+offset_top = 287.0
+offset_right = 81.0
+offset_bottom = 313.0
+size_flags_horizontal = 8
+text = "Resolution"
+
+[node name="OptionButton" type="OptionButton" parent="."]
+offset_left = 85.0
+offset_top = 285.0
+offset_right = 1024.0
+offset_bottom = 314.0
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 16
+
+[connection signal="item_selected" from="OptionButton" to="." method="_on_option_button_item_selected"]

@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://deemptfmmiflg"]
+
+[ext_resource type="Script" path="res://source/helpers/scripts/ui_checkbox.gd" id="1_ey61j"]
+
+[node name="uiCheckbox" type="HBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( "1_ey61j" )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+title = null
+
+[node name="Label" type="Label" parent="."]
+offset_top = 168.0
+offset_right = 1.0
+offset_bottom = 191.0
+
+[node name="CheckBox" type="CheckBox" parent="."]
+offset_left = 5.0
+offset_right = 29.0
+offset_bottom = 360.0
+
+[connection signal="toggled" from="CheckBox" to="." method="_on_check_box_toggled"]

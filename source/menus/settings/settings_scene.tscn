@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfm1efc0npnlh"]
+
+[ext_resource type="Script" path="res://source/menus/settings/settings_scene.gd" id="1_1u0j5"]
+[ext_resource type="PackedScene" uid="uid://dsxri4v650bih" path="res://source/helpers/menus/ui_video_settings.tscn" id="1_dh10e"]
+
+[node name="settings_scene" type="Node2D"]
+script = ExtResource( "1_1u0j5" )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="video_settings" parent="CanvasLayer" instance=ExtResource( "1_dh10e" )]
+
+[connection signal="apply_button_pressed" from="CanvasLayer/video_settings" to="." method="_on_video_settings_apply_button_pressed"]
