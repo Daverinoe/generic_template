@@ -1,3 +1,6 @@
-res://source/helpers/menus/resolution_selector.tscn
-res://source/helpers/menus/ui_video_settings.tscn
-res://source/menus/settings/settings_scene.tscn
+res://scene_manager.gd
+res://settings_manager.gd
+res://source/autoloads/audio_bus.gd
+res://source/autoloads/globals.gd
+res://source/autoloads/settings_manager.gd
+res://source/autoloads/signal_bus.gd
