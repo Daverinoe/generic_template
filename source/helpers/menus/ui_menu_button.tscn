@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b177bba8ea65j"]
+
+[node name="ui_menu_button" type="TextureButton"]
+__meta__ = {
+"_edit_use_anchors_": false
+}

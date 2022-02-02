@@ -25,57 +25,57 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="VBoxContainer"]
-offset_left = 334.0
-offset_right = 441.0
+offset_left = 142.0
+offset_right = 249.0
 offset_bottom = 26.0
 size_flags_horizontal = 4
 text = "Video settings"
 
 [node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
 offset_top = 30.0
-offset_right = 775.0
+offset_right = 391.0
 offset_bottom = 34.0
 
 [node name="resolutionSelector" parent="VBoxContainer" instance=ExtResource( "1_fv4bh" )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_left = 330.0
+offset_left = 131.0
 offset_top = 38.0
-offset_right = 444.0
-offset_bottom = 67.0
+offset_right = 259.0
+offset_bottom = 69.0
 size_flags_horizontal = 6
 
 [node name="ui_fullscreen_checkbox" parent="VBoxContainer" instance=ExtResource( "2_ttmcl" )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_left = 332.0
-offset_top = 71.0
-offset_right = 443.0
-offset_bottom = 102.0
+offset_left = 140.0
+offset_top = 73.0
+offset_right = 251.0
+offset_bottom = 104.0
 size_flags_horizontal = 4
 title = "Full Screen"
 
 [node name="ui_vsync_checkbox" parent="VBoxContainer" instance=ExtResource( "2_ttmcl" )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_left = 350.0
-offset_top = 106.0
-offset_right = 424.0
-offset_bottom = 137.0
+offset_left = 158.0
+offset_top = 108.0
+offset_right = 232.0
+offset_bottom = 139.0
 size_flags_horizontal = 4
 title = "VSync"
 
 [node name="Control" type="Control" parent="VBoxContainer"]
-offset_top = 141.0
-offset_right = 775.0
-offset_bottom = 141.0
+offset_top = 143.0
+offset_right = 391.0
+offset_bottom = 143.0
 size_flags_vertical = 2
 
 [node name="apply_button" type="Button" parent="VBoxContainer"]
-offset_left = 359.0
-offset_top = 439.0
-offset_right = 415.0
-offset_bottom = 468.0
+offset_left = 169.0
+offset_top = 197.0
+offset_right = 221.0
+offset_bottom = 228.0
 size_flags_horizontal = 4
 size_flags_vertical = 8
 text = "Apply"

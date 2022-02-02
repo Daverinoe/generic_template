@@ -17,6 +17,15 @@ boot_splash/use_filter=false
 config/icon="res://icon.png"
 config/features=PackedStringArray("4.0", "Vulkan Clustered")
 
+[autoload]
+
+AudioManager="*res://source/autoloads/audio_manager.gd"
+Globals="*res://source/autoloads/globals.gd"
+InputManager="*res://source/autoloads/input_manager.gd"
+SceneManager="*res://source/autoloads/scene_manager.gd"
+SettingsManager="*res://source/autoloads/settings_manager.gd"
+SignalBus="*res://source/autoloads/signal_bus.gd"
+
 [display]
 
 window/size/viewport_width=640

@@ -9,7 +9,6 @@ script = ExtResource( "1_ey61j" )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-title = null
 
 [node name="Label" type="Label" parent="."]
 offset_top = 168.0
